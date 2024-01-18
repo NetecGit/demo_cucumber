@@ -5,9 +5,5 @@
     When hago una solicitud GET al endpoint
     Then la respuesta debe ser un JSON con los siguientes datos:
     """
-    {
-		"idClient": 1,
-		"name": "Nombre1",
-		"surname": "Apellidos1"
-	}
+    {"idClient":1,"name":"Nombre1","surname":"Apellidos1"}
     """
